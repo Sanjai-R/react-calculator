@@ -17,7 +17,6 @@ function App() {
   }
 
   function calculate() {
-    console.log("Hello, I calculate for you");
     const results = eval(display);
     setDisplay(results);
   }
