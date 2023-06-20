@@ -6,7 +6,7 @@ class Button extends React.Component {
     return (
       <button
         onClick={onClick}
-        className={`px-4 py-2 sm:px-6 grid place-items-center sm:py-3 bg-secondary text-white sm:text-lg sm:w-24 md:w-32 rounded-md shadow ${extraClass}`}
+        className={`${extraClass} px-4 py-2 sm:px-6 grid place-items-center sm:py-3 bg-secondary text-white sm:text-lg sm:w-24 md:w-32 rounded-md shadow `}
       >
         <p>{children}</p>
       </button>
